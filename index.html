@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Gowshik Karuneswaran G | ERP and Full Stack Developer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Gowshik Karuneswaran G is an ERP and full stack developer from Erode, Tamil Nadu. See his projects, experience and skills, and ask his virtual mini-me a question.">
+<meta name="theme-color" content="#f7f6fd">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gowshik Karuneswaran G | ERP and Full Stack Developer">
+<meta property="og:description" content="ERP and full stack developer. Projects, experience, a mini ERP demo and a virtual mini-me who answers your questions.">
+<link rel="icon" type="image/jpeg" href="img/chibi-peace.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Figtree:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout concept: a friendly one-page tour of one person. A soft pastel hero, then sections that each invite a tap:
+   flip cards, a skills map, a clickable career timeline, a small ERP you can operate, and a desk for questions. */
+:root {
+  color-scheme: light;
+  --bg: #f7f6fd;
+  --surface: #ffffff;
+  --surface-2: #efedfb;
+  --ink: #3a3660;
+  --muted: #66638a;
+  --line: #e0dcf4;
+  --accent: #6a5ae0;
+  --accent-ink: #ffffff;
+  --accent-soft: #e4e0fc;
+  --lav: #dad5fb;
+  --peach: #ffdccd;
+  --mint: #cdf1e4;
+  --sky: #cde8fa;
+  --butter: #fff2c4;
+  --blob-op: 0.75;
+  --shadow: 0 12px 32px rgba(86, 72, 190, 0.12);
+  --shadow-sm: 0 4px 14px rgba(86, 72, 190, 0.1);
+  --font-display: "Bricolage Grotesque", "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1d1b33; --surface: #262449; --surface-2: #2e2b57; --ink: #e6e3fb; --muted: #aeabd6; --line: #3a3769;
+    --accent: #a99bff; --accent-ink: #1d1b33; --accent-soft: #38336f;
+    --lav: #3b3772; --peach: #5a3d52; --mint: #1f4a49; --sky: #223f66; --butter: #5b4f2c;
+    --blob-op: 0.45; --shadow: 0 12px 32px rgba(0, 0, 0, 0.35); --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.3);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1d1b33; --surface: #262449; --surface-2: #2e2b57; --ink: #e6e3fb; --muted: #aeabd6; --line: #3a3769;
+  --accent: #a99bff; --accent-ink: #1d1b33; --accent-soft: #38336f;
+  --lav: #3b3772; --peach: #5a3d52; --mint: #1f4a49; --sky: #223f66; --butter: #5b4f2c;
+  --blob-op: 0.45; --shadow: 0 12px 32px rgba(0, 0, 0, 0.35); --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.3);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 400 17px/1.65 var(--font-body);
+  padding-block: 0 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  -webkit-text-size-adjust: 100%;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 40; background: var(--bg); }
+h1, h2, h3, h4, p { margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; letter-spacing: -0.01em; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+section { scroll-margin-top: 84px; }
+.wrap { max-width: 1120px; margin: 0 auto; }
+main { display: flex; flex-direction: column; gap: 88px; padding-top: 24px; }
+
+.eyebrow { font: 500 12px/1.4 var(--font-mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.section-head { display: flex; flex-direction: column; gap: 8px; margin-bottom: 28px; max-width: 62ch; }
+.section-head h2 { font-size: clamp(1.9rem, 4.6vw, 2.9rem); font-weight: 800; line-height: 1.08; }
+.section-head p { color: var(--muted); }
+
+/* Top bar */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: var(--bg); border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; gap: 16px; padding: 10px 0; }
+.mark { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 14px; background: var(--lav); color: var(--ink); font: 800 16px var(--font-display); text-decoration: none; flex: none; }
+nav { flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+nav::-webkit-scrollbar { display: none; }
+nav ul { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; width: max-content; }
+nav a { display: block; padding: 8px 12px; border-radius: 999px; color: var(--ink); text-decoration: none; font-weight: 500; font-size: 15px; }
+nav a:hover { background: var(--accent-soft); }
+.theme { flex: none; min-height: 40px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: 500 14px var(--font-body); cursor: pointer; }
+.theme:hover { background: var(--accent-soft); }
+
+/* Hero */
+.hero { position: relative; overflow: clip; background: var(--surface); border-radius: 32px; box-shadow: var(--shadow); padding: clamp(24px, 5vw, 56px); display: grid; grid-template-columns: 1fr; gap: 36px; align-items: center; isolation: isolate; }
+@media (min-width: 920px) { .hero { grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); } }
+.blob { position: absolute; border-radius: 50%; filter: blur(48px); opacity: var(--blob-op); z-index: -1; animation: drift 16s ease-in-out infinite alternate; }
+.b1 { width: 340px; height: 340px; background: var(--lav); top: -90px; left: -60px; }
+.b2 { width: 300px; height: 300px; background: var(--peach); bottom: -80px; right: 10%; animation-delay: -5s; }
+.b3 { width: 260px; height: 260px; background: var(--mint); top: 20%; right: -70px; animation-delay: -9s; }
+.glow { position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(420px circle at var(--mx, 70%) var(--my, 30%), var(--accent-soft), transparent 70%); opacity: 0.8; }
+@keyframes drift { from { transform: translate(0, 0) scale(1); } to { transform: translate(40px, 30px) scale(1.12); } }
+.hero-main { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
+.status { align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border-radius: 999px; background: var(--mint); color: var(--ink); font: 500 13px/1.3 var(--font-mono); }
+.status i { width: 8px; height: 8px; border-radius: 50%; background: var(--ink); animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.7); opacity: 0.4; } }
+.hello { font-size: 1.15rem; color: var(--muted); font-weight: 500; }
+.name { font-weight: 800; font-size: clamp(2.3rem, 8.2vw, 4.3rem); line-height: 0.98; letter-spacing: -0.025em; }
+.name .w { display: block; animation: rise 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+.name .w:nth-child(2) { animation-delay: 0.12s; }
+.name .g { color: var(--accent); }
+@keyframes rise { from { transform: translateY(0.5em); } to { transform: none; } }
+.rolebar { font: 600 clamp(1.15rem, 2.6vw, 1.55rem)/1.3 var(--font-display); }
+.rolebar #word { display: inline-block; color: var(--accent); }
+.rolebar #word.swap { animation: swap 0.5s ease both; }
+@keyframes swap { from { transform: translateY(0.6em); opacity: 0.2; } to { transform: none; opacity: 1; } }
+.lede { max-width: 56ch; font-size: 1.1rem; }
+.cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 22px; border-radius: 999px; border: 1.5px solid var(--accent); background: transparent; color: var(--accent); font: 600 15px/1 var(--font-body); text-decoration: none; cursor: pointer; transition: transform 0.2s cubic-bezier(0.3, 1.6, 0.5, 1), background 0.2s, box-shadow 0.2s; }
+.btn:hover { transform: translateY(-3px) scale(1.03); background: var(--accent-soft); }
+.btn.primary { background: var(--accent); color: var(--accent-ink); box-shadow: var(--shadow-sm); }
+.btn.primary:hover { background: var(--accent); box-shadow: var(--shadow); }
+.btn[disabled] { opacity: 0.6; cursor: progress; }
+
+.stage { position: relative; width: min(310px, 100%); margin-inline: auto; display: flex; flex-direction: column; }
+@media (max-width: 919px) { .stage { order: -1; width: min(250px, 100%); } }
+.photo-wrap { position: relative; }
+.photo { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1.08; object-fit: cover; object-position: 50% 14%; border-radius: 44px; border: 6px solid var(--surface); box-shadow: 10px 10px 0 var(--lav), var(--shadow); background: var(--lav); transform: rotate(-1.5deg); }
+.guide-av { flex: none; width: 84px; height: 84px; padding: 0; border-radius: 50%; overflow: hidden; border: 3px solid var(--surface); background: var(--lav); box-shadow: var(--shadow-sm); cursor: pointer; transition: transform 0.25s cubic-bezier(0.3, 1.6, 0.5, 1); }
+.guide-av img { display: block; width: 100%; height: 100%; object-fit: cover; }
+button.guide-av:hover { transform: scale(1.08) rotate(-3deg); }
+.guide-av.talking { border-color: var(--accent); animation: chat 0.5s ease-in-out infinite alternate; }
+@keyframes chat { from { transform: translateY(0) rotate(-2deg); } to { transform: translateY(-5px) rotate(2deg); } }
+.hero-chibi { position: absolute; left: -18px; bottom: -34px; width: 118px; height: 118px; z-index: 2; }
+.photo-wrap .fc1 { top: 5%; left: auto; right: -14px; }
+.photo-wrap .fc2 { top: 30%; right: auto; left: -16px; }
+.photo-wrap .fc3 { top: auto; bottom: 30%; left: auto; right: -16px; }
+.photo-wrap .fc4 { top: auto; bottom: 12%; left: auto; right: 8px; }
+.bubble { position: relative; margin-top: 48px; background: var(--surface); color: var(--ink); border: 2px solid var(--lav); border-radius: 22px; padding: 14px 18px; box-shadow: var(--shadow-sm); font: 600 16px/1.45 var(--font-body); min-height: 4.4em; }
+.bubble::after { content: ""; position: absolute; left: 34px; top: -11px; width: 18px; height: 18px; background: var(--surface); border-left: 2px solid var(--lav); border-top: 2px solid var(--lav); transform: rotate(45deg); }
+.guide { display: flex; align-items: flex-start; gap: 16px; margin: -6px 0 26px; max-width: 760px; }
+.guide .guide-av { width: 88px; height: 88px; }
+.guide-bubble { position: relative; flex: 1 1 auto; min-width: 0; background: var(--surface); border: 2px solid var(--lav); border-radius: 20px; padding: 12px 18px; box-shadow: var(--shadow-sm); font: 500 17px/1.5 var(--font-body); min-height: 4.6em; }
+.guide-bubble::before { content: ""; position: absolute; left: -9px; top: 30px; width: 14px; height: 14px; background: var(--surface); border-left: 2px solid var(--lav); border-bottom: 2px solid var(--lav); transform: rotate(45deg); }
+.guide-bubble .who { display: block; font: 500 11px/1.6 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.deskhead { display: flex; align-items: center; gap: 14px; padding: 14px 20px; border-bottom: 1px solid var(--line); background: var(--surface-2); }
+.deskhead .guide-av { width: 68px; height: 68px; cursor: default; }
+.deskhead b { display: block; font: 700 1.1rem var(--font-display); }
+.minis { margin: 28px 0 0; border-radius: 28px; overflow: hidden; background: var(--surface); box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .minis { grid-template-columns: minmax(0, 330px) minmax(0, 1fr); align-items: center; } }
+.minis img { display: block; width: 100%; height: auto; }
+.minis figcaption { padding: 24px; display: flex; flex-direction: column; gap: 10px; }
+.minis figcaption h3 { font-size: 1.6rem; font-weight: 800; line-height: 1.15; }
+.minis figcaption p { color: var(--muted); max-width: 46ch; }
+.fchip { position: absolute; padding: 8px 14px; border-radius: 999px; background: var(--surface); color: var(--ink); box-shadow: var(--shadow-sm); font: 500 13px/1 var(--font-mono); animation: float 5s ease-in-out infinite; }
+.fc1 { top: 6%; left: 0; background: var(--sky); }
+.fc2 { top: 30%; right: 0; background: var(--butter); animation-delay: -1.5s; }
+.fc3 { bottom: 14%; left: 2%; background: var(--mint); animation-delay: -3s; }
+.fc4 { bottom: 0; right: 6%; background: var(--peach); animation-delay: -2s; }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+
+/* Stats */
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+@media (min-width: 760px) { .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.stat { padding: 22px; border-radius: 24px; display: flex; flex-direction: column; gap: 4px; color: var(--ink); transition: transform 0.25s; }
+.stat:hover { transform: translateY(-4px) rotate(-0.6deg); }
+.stat:nth-child(1) { background: var(--lav); } .stat:nth-child(2) { background: var(--peach); }
+.stat:nth-child(3) { background: var(--mint); } .stat:nth-child(4) { background: var(--sky); }
+.stat b { font: 800 clamp(2.2rem, 6vw, 3.2rem)/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.stat span { font-size: 15px; }
+
+/* Marquee */
+.marquee { overflow: hidden; border-block: 1px solid var(--line); padding: 14px 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.marquee-track { display: flex; gap: 12px; width: max-content; animation: slide 36s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee .pill { flex: none; padding: 8px 18px; border-radius: 999px; background: var(--surface); box-shadow: var(--shadow-sm); font: 500 14px var(--font-mono); }
+@keyframes slide { to { transform: translateX(calc(-50% - 6px)); } }
+
+/* Flip cards */
+.flips { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+.flip { display: grid; perspective: 1000px; background: none; border: 0; padding: 0; text-align: left; cursor: pointer; font: inherit; color: inherit; min-width: 0; }
+.face { grid-area: 1 / 1; min-height: 210px; padding: 24px; border-radius: 26px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px; backface-visibility: hidden; -webkit-backface-visibility: hidden; transition: transform 0.7s cubic-bezier(0.3, 1.2, 0.4, 1); box-shadow: var(--shadow-sm); color: var(--ink); }
+.face.back { transform: rotateY(180deg); background: var(--surface); border: 2px solid var(--line); }
+.flip[aria-pressed="true"] .front { transform: rotateY(-180deg); }
+.flip[aria-pressed="true"] .back { transform: rotateY(0); }
+.flip:hover .face { box-shadow: var(--shadow); }
+.face h3 { font-size: 1.45rem; font-weight: 700; line-height: 1.15; }
+.face .hint { font: 500 12px var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.75; }
+.flip:nth-child(6n+1) .front { background: var(--lav); } .flip:nth-child(6n+2) .front { background: var(--peach); }
+.flip:nth-child(6n+3) .front { background: var(--mint); } .flip:nth-child(6n+4) .front { background: var(--sky); }
+.flip:nth-child(6n+5) .front { background: var(--butter); } .flip:nth-child(6n) .front { background: var(--lav); }
+
+/* Skills map */
+.map { display: grid; grid-template-columns: 1fr; gap: 20px; }
+@media (min-width: 900px) { .map { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); align-items: start; } }
+.cats { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.cat { display: flex; flex-direction: column; gap: 8px; }
+.skill { min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1.5px solid transparent; background: var(--c); color: var(--ink); font: 500 15px var(--font-body); cursor: pointer; transition: transform 0.2s cubic-bezier(0.3, 1.6, 0.5, 1), box-shadow 0.2s; }
+.skill:hover { transform: translateY(-3px) scale(1.04); box-shadow: var(--shadow-sm); }
+.skill[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); transform: scale(1.06); }
+.chiprow { display: flex; flex-wrap: wrap; gap: 8px; }
+.panel { background: var(--surface); border-radius: 26px; padding: 24px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+@media (min-width: 900px) { .panel.sticky { position: sticky; top: 96px; } }
+.panel h3 { font-size: 1.6rem; font-weight: 800; }
+.panel ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.panel .tagline { align-self: flex-start; padding: 4px 12px; border-radius: 999px; background: var(--c, var(--lav)); font: 500 12px var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; }
+.pop { animation: pop 0.45s cubic-bezier(0.3, 1.4, 0.5, 1) both; }
+@keyframes pop { from { transform: translateY(12px) scale(0.98); opacity: 0.3; } to { transform: none; opacity: 1; } }
+
+/* Timeline */
+.track { display: flex; gap: 10px; overflow-x: auto; padding: 6px 2px 14px; scroll-snap-type: x proximity; }
+.node { flex: 1 0 150px; scroll-snap-align: start; text-align: left; background: none; border: 0; padding: 18px 0 0; cursor: pointer; position: relative; font: inherit; color: var(--muted); }
+.node::before { content: ""; position: absolute; top: 6px; left: 0; right: -10px; height: 4px; border-radius: 4px; background: var(--line); transition: background 0.5s; }
+.node::after { content: ""; position: absolute; top: 0; left: 0; width: 16px; height: 16px; border-radius: 50%; background: var(--surface); border: 3px solid var(--line); transition: all 0.4s cubic-bezier(0.3, 1.6, 0.5, 1); }
+.node.done::before { background: var(--accent); }
+.node.done::after { border-color: var(--accent); background: var(--accent); }
+.node[aria-selected="true"] { color: var(--ink); }
+.node[aria-selected="true"]::after { transform: scale(1.4); box-shadow: 0 0 0 5px var(--accent-soft); }
+.node b { display: block; font: 700 15px/1.3 var(--font-display); }
+.node span { display: block; font: 400 12px/1.5 var(--font-mono); }
+.node:hover { color: var(--ink); }
+.detail { display: grid; grid-template-columns: 1fr; gap: 20px; background: var(--surface); border-radius: 26px; box-shadow: var(--shadow); padding: clamp(20px, 4vw, 32px); }
+.detail h3 { font-size: clamp(1.5rem, 3.4vw, 2rem); font-weight: 800; line-height: 1.15; }
+.detail .org { color: var(--muted); font-weight: 500; }
+.detail ul { margin: 10px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; max-width: 70ch; }
+.note-line { margin-top: 12px; padding: 10px 14px; border-radius: 14px; background: var(--butter); color: var(--ink); font-size: 15px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.tag { padding: 5px 12px; border-radius: 999px; background: var(--accent-soft); color: var(--ink); font: 500 12px var(--font-mono); }
+.stepper { display: flex; gap: 10px; flex-wrap: wrap; }
+
+/* Demo */
+.demo { background: var(--surface); border-radius: 30px; box-shadow: var(--shadow); padding: clamp(18px, 4vw, 32px); display: flex; flex-direction: column; gap: 20px; }
+.tabs { display: flex; gap: 6px; padding: 5px; background: var(--surface-2); border-radius: 999px; align-self: flex-start; flex-wrap: wrap; }
+.tab { min-height: 40px; padding: 0 18px; border-radius: 999px; border: 0; background: transparent; color: var(--ink); font: 600 15px var(--font-body); cursor: pointer; transition: background 0.25s; }
+.tab[aria-selected="true"] { background: var(--accent); color: var(--accent-ink); }
+.sample { font: 500 12px/1.5 var(--font-mono); color: var(--muted); }
+.kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.kpi { padding: 14px 16px; border-radius: 18px; background: var(--surface-2); display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.kpi b { font: 800 clamp(1.4rem, 4vw, 2rem)/1.1 var(--font-display); font-variant-numeric: tabular-nums; }
+.kpi span { font-size: 13px; color: var(--muted); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.fbtn { min-height: 38px; padding: 0 14px; border-radius: 999px; border: 1.5px solid var(--line); background: transparent; color: var(--ink); font: 500 14px var(--font-body); cursor: pointer; }
+.fbtn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.orders { display: flex; flex-direction: column; gap: 10px; }
+.order { display: grid; grid-template-columns: 1fr; gap: 8px 16px; align-items: center; padding: 14px 16px; border-radius: 18px; border: 1.5px solid var(--line); animation: pop 0.4s ease both; }
+@media (min-width: 720px) { .order { grid-template-columns: 110px minmax(0, 1fr) 90px 130px 120px; } }
+.order .id { font: 500 14px var(--font-mono); }
+.order .dest { font-weight: 600; }
+.order .tons { font: 500 14px var(--font-mono); color: var(--muted); }
+.pill-s { display: inline-block; padding: 4px 12px; border-radius: 999px; font: 500 13px var(--font-mono); color: var(--ink); text-align: center; transition: background 0.4s; }
+.s0 { background: var(--lav); } .s1 { background: var(--butter); } .s2 { background: var(--sky); } .s3 { background: var(--mint); }
+.mini { min-height: 38px; padding: 0 14px; border-radius: 999px; border: 1.5px solid var(--accent); background: transparent; color: var(--accent); font: 600 14px var(--font-body); cursor: pointer; }
+.mini:hover { background: var(--accent-soft); }
+.mini[disabled] { opacity: 0.5; cursor: default; border-color: var(--line); color: var(--muted); }
+.bars { display: flex; flex-direction: column; gap: 12px; }
+.bar { display: grid; grid-template-columns: 130px minmax(0, 1fr) 30px; gap: 12px; align-items: center; font-size: 15px; }
+@media (max-width: 480px) { .bar { grid-template-columns: 100px minmax(0, 1fr) 26px; font-size: 14px; } }
+.bar .rail { height: 16px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.bar .fill { display: block; height: 100%; width: 0; border-radius: 999px; background: var(--accent); transition: width 0.9s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.bar b { font: 500 14px var(--font-mono); text-align: right; }
+.lotinfo { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+
+/* Projects */
+.projects { display: grid; grid-template-columns: 1fr; gap: 18px; }
+@media (min-width: 900px) { .projects { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); } }
+.project { border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 16px; min-width: 0; color: var(--ink); transition: transform 0.25s ease, box-shadow 0.25s; box-shadow: var(--shadow-sm); will-change: transform; }
+.project:hover { box-shadow: var(--shadow); }
+.project.p1 { background: var(--lav); } .project.p2 { background: var(--peach); }
+.project h3 { font-size: 1.9rem; font-weight: 800; line-height: 1.1; }
+.project ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.project .tags .tag { background: var(--surface); }
+.project .tags { margin-top: 0; }
+.project .links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: auto; font-weight: 700; }
+.project a { color: var(--ink); }
+
+/* Credentials */
+.cred { display: grid; grid-template-columns: 1fr; gap: 18px; }
+@media (min-width: 900px) { .cred { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); } }
+.edu { background: var(--surface); border-radius: 28px; box-shadow: var(--shadow); padding: 28px; display: flex; flex-direction: column; gap: 14px; }
+.edu h3 { font-size: 1.5rem; font-weight: 800; }
+.certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; }
+.cert { border-radius: 24px; padding: 22px; display: flex; flex-direction: column; gap: 10px; color: var(--ink); transition: transform 0.25s cubic-bezier(0.3, 1.6, 0.5, 1); }
+.cert:hover { transform: translateY(-6px) rotate(-1deg); }
+.cert:nth-child(1) { background: var(--sky); } .cert:nth-child(2) { background: var(--butter); } .cert:nth-child(3) { background: var(--mint); }
+.cert .seal { width: 44px; height: 44px; border-radius: 50%; background: var(--surface); display: grid; place-items: center; font: 800 18px var(--font-display); }
+.cert h3 { font-size: 1.2rem; font-weight: 700; line-height: 1.2; }
+
+/* Ask */
+.ask { display: grid; grid-template-columns: 1fr; gap: 24px; }
+@media (min-width: 900px) { .ask { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 36px; } }
+.ask-intro { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.ask-intro p { color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: 500 14px/1.3 var(--font-body); padding: 10px 14px; min-height: 44px; text-align: left; background: var(--surface); color: var(--ink); border: 1.5px solid var(--line); border-radius: 18px; cursor: pointer; transition: transform 0.2s cubic-bezier(0.3, 1.6, 0.5, 1); }
+.chip:hover { transform: translateY(-2px); border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.desk { background: var(--surface); border-radius: 28px; box-shadow: var(--shadow); display: flex; flex-direction: column; min-width: 0; overflow: hidden; }
+.log { padding: 24px; display: flex; flex-direction: column; gap: 18px; min-height: 280px; }
+.msg { display: flex; flex-direction: column; gap: 6px; min-width: 0; animation: pop 0.4s ease both; }
+.msg .who { font: 500 12px/1.4 var(--font-mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.msg.q .body { font-weight: 600; }
+.msg.a .body { white-space: pre-line; overflow-wrap: anywhere; }
+.msg.a { border-left: 4px solid var(--lav); padding-left: 14px; }
+.note { font: 400 12px/1.5 var(--font-mono); color: var(--muted); }
+.freeform { display: flex; gap: 8px; flex-wrap: wrap; padding: 16px 24px; border-top: 1px solid var(--line); background: var(--surface-2); }
+.field, .freeform input { min-width: 0; min-height: 46px; padding: 10px 14px; font: 400 16px var(--font-body); background: var(--surface); color: var(--ink); border: 1.5px solid var(--line); border-radius: 14px; width: 100%; }
+.freeform input { flex: 1 1 220px; width: auto; }
+textarea.field { min-height: 120px; resize: vertical; }
+
+/* Contact */
+.contact { display: grid; grid-template-columns: 1fr; gap: 18px; }
+@media (min-width: 900px) { .contact { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); } }
+.cards { display: flex; flex-direction: column; gap: 12px; }
+.ccard { background: var(--surface); border-radius: 22px; box-shadow: var(--shadow-sm); padding: 18px 20px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.val-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.val { font: 500 17px/1.4 var(--font-mono); overflow-wrap: anywhere; }
+.copy { min-height: 34px; padding: 0 12px; border-radius: 999px; border: 1.5px solid var(--line); background: transparent; color: var(--ink); font: 500 13px var(--font-mono); cursor: pointer; }
+.copy:hover { background: var(--accent-soft); }
+.composer { background: var(--surface); border-radius: 28px; box-shadow: var(--shadow); padding: clamp(20px, 4vw, 30px); display: flex; flex-direction: column; gap: 14px; }
+.composer label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; font-size: 15px; }
+.two { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 560px) { .two { grid-template-columns: 1fr 1fr; } }
+.status-line { min-height: 1.6em; font-size: 15px; color: var(--muted); }
+
+footer { display: flex; justify-content: space-between; gap: 8px 24px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 56px; }
+
+/* Reveal on scroll: content stays readable at rest, motion only adds polish */
+.js .reveal { opacity: 0.55; transform: translateY(18px); transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); transition-delay: var(--d, 0s); }
+.js .reveal.in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  .marquee { overflow-x: auto; }
+  .marquee-track { animation: none; }
+}
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#home" aria-label="Back to top">GK</a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#ask">Ask me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-pressed="false">Dark mode</button>
+  </div>
+</header>
+
+<main class="wrap" id="home">
+
+  <section class="hero" aria-label="Introduction">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="glow" id="glow"></span>
+    <div class="hero-main">
+      <span class="status"><i></i>Open to ERP and full stack roles</span>
+      <p class="hello">Hi, I am</p>
+      <h1 class="name"><span class="w">Gowshik</span><span class="w">Karuneswaran <span class="g">G</span></span></h1>
+      <p class="rolebar">I build <span id="word">ERP systems</span></p>
+      <p class="lede">ERP and full stack developer from Erode, Tamil Nadu. I have planned dispatches, managed service work and inspected fabric lots, and now I build the software for those jobs in React.js, Node.js, PostgreSQL and Prisma.</p>
+      <div class="cta">
+        <a class="btn primary" href="#demo">Try my mini ERP</a>
+        <a class="btn" href="#ask">Ask me anything</a>
+        <a class="btn" href="https://gvs-erp-sand.vercel.app" target="_blank" rel="noopener">Open my live ERP</a>
+      </div>
+    </div>
+    <div class="stage">
+      <div class="photo-wrap">
+        <img class="photo" src="img/me.jpg" width="640" height="960" alt="Gowshik Karuneswaran G smiling in a navy dotted shirt in front of warm string lights">
+        <span class="fchip fc1" aria-hidden="true">React.js</span>
+        <span class="fchip fc2" aria-hidden="true">Node.js</span>
+        <span class="fchip fc3" aria-hidden="true">PostgreSQL</span>
+        <span class="fchip fc4" aria-hidden="true">Axpert ERP</span>
+        <button class="guide-av hero-chibi" id="heroChibi" type="button" aria-label="Hear another line from Gowshik"><img src="img/chibi-peace.jpg" width="118" height="118" alt=""></button>
+      </div>
+      <div class="bubble"><span id="bubbleText">Hi! I am Gowshik. Welcome to my corner of the web.</span></div>
+    </div>
+  </section>
+
+  <div class="stats reveal" aria-label="Numbers">
+    <div class="stat"><b class="count" data-to="150">150</b><span>fabric rolls inspected every day</span></div>
+    <div class="stat"><b class="count" data-to="2.1" data-dec="1">2.1</b><span>tons of daily production checked</span></div>
+    <div class="stat"><b class="count" data-to="3">3</b><span>years of IT support during college</span></div>
+    <div class="stat"><b class="count" data-to="2">2</b><span>full stack projects built</span></div>
+  </div>
+
+  <div class="marquee" aria-label="Tools I work with">
+    <div class="marquee-track" id="marquee"></div>
+  </div>
+
+  <section id="about" aria-labelledby="about-h">
+    <div class="section-head reveal"><span class="eyebrow">Get to know me</span><h2 id="about-h">Six things about me. Tap a card.</h2></div>
+    <div class="flips" id="flips"></div>
+    <figure class="minis reveal">
+      <img src="img/minis.jpg" width="760" height="1142" loading="lazy" alt="Gowshik standing with five small cartoon versions of himself, one on each shoulder, one hugging his arm and one with arms crossed in front">
+      <figcaption><h3>Me and my five mini-mes</h3><p>These little versions of me guide you through this page. Each section has one, and they answer in my own words.</p></figcaption>
+    </figure>
+  </section>
+
+  <section id="skills" aria-labelledby="skills-h">
+    <div class="section-head reveal"><span class="eyebrow">Skills map</span><h2 id="skills-h">Pick a skill and see where I used it</h2><p>Every skill links back to a real project or job.</p></div>
+    <div class="map">
+      <div class="cats" id="cats"></div>
+      <div class="panel sticky" id="skillpanel" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section id="journey" aria-labelledby="journey-h">
+    <div class="section-head reveal"><span class="eyebrow">Career timeline</span><h2 id="journey-h">From exam halls to ERP</h2><p>Click a step, or use the buttons, to see what I did there.</p></div>
+    <div class="track" id="track" role="tablist" aria-label="Career steps"></div>
+    <div class="detail" id="detail" role="tabpanel" aria-live="polite"></div>
+    <div class="stepper" style="margin-top:16px">
+      <button class="btn" type="button" id="prev">Earlier</button>
+      <button class="btn primary" type="button" id="next">Later</button>
+    </div>
+  </section>
+
+  <section id="demo" aria-labelledby="demo-h">
+    <div class="section-head reveal"><span class="eyebrow">Mini ERP</span><h2 id="demo-h">Run a dispatch yard and check a lot</h2><p>This is a small working demo of the kind of screens I build. It uses made-up sample data, not real company figures.</p></div>
+    <div class="demo reveal">
+      <div class="tabs" role="tablist" aria-label="Demo modules">
+        <button class="tab" role="tab" id="tab-d" aria-selected="true" data-tab="d" type="button">Dispatch</button>
+        <button class="tab" role="tab" id="tab-q" aria-selected="false" data-tab="q" type="button">Fabric QA</button>
+      </div>
+      <div id="demo-d">
+        <div class="kpis" id="kpis"></div>
+        <div class="filters" id="filters" role="group" aria-label="Filter by stage" style="margin-top:16px"></div>
+        <div class="orders" id="orders" style="margin-top:16px"></div>
+        <p class="sample" style="margin-top:14px">Sample data. Press the button on a row to move that order to its next stage.</p>
+      </div>
+      <div id="demo-q" hidden>
+        <div class="filters" id="lots" role="group" aria-label="Choose a lot"></div>
+        <div class="lotinfo" id="lotinfo" style="margin-top:16px"></div>
+        <div class="bars" id="bars" style="margin-top:16px"></div>
+        <p class="sample" style="margin-top:14px">Sample data. Lot-wise defect reports like this go to the quality and production teams for verification.</p>
+      </div>
+      <button class="mini" type="button" id="reset" style="align-self:flex-start">Reset demo</button>
+    </div>
+  </section>
+
+  <section id="projects" aria-labelledby="proj-h">
+    <div class="section-head reveal"><span class="eyebrow">Projects</span><h2 id="proj-h">Things I built end to end</h2></div>
+    <div class="projects">
+      <article class="project p1 tilt reveal">
+        <span class="eyebrow" style="color:var(--ink)">Live now</span>
+        <h3>ERP Management System</h3>
+        <p>A working ERP for workflow management, dispatch operations, planning and administration, with dashboards for operational tracking and reporting.</p>
+        <ul>
+          <li>REST APIs in Node.js, business data in PostgreSQL through Prisma ORM.</li>
+          <li>Responsive UI components and workflow automation.</li>
+        </ul>
+        <div class="tags"><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">Prisma</span></div>
+        <div class="links"><a href="https://gvs-erp-sand.vercel.app" target="_blank" rel="noopener">Open live app</a><a href="https://github.com/Gkcandyman/gvs-erp" target="_blank" rel="noopener">Read the code</a></div>
+      </article>
+      <article class="project p2 tilt reveal" style="--d:0.1s">
+        <span class="eyebrow" style="color:var(--ink)">Full stack</span>
+        <h3>SaraCrafts</h3>
+        <p>An e-beautician and gift products platform for managing beauty services and customized gift products.</p>
+        <ul>
+          <li>Responsive React.js front end.</li>
+          <li>Backend REST APIs for service handling and product management.</li>
+          <li>PostgreSQL and Prisma ORM for structured data.</li>
+        </ul>
+        <div class="tags"><span class="tag">React.js</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">Prisma</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="cred-h">
+    <div class="section-head reveal"><span class="eyebrow">Education and certificates</span><h2 id="cred-h">What I studied</h2></div>
+    <div class="cred">
+      <div class="edu reveal">
+        <span class="eyebrow">Degree</span>
+        <h3>Bachelor of Computer Science</h3>
+        <p>Nandha Arts and Science College, 2020 to 2023. CGPA 7.8, First Class.</p>
+        <p>HSC (2020), Bharathi Matriculation Higher Secondary School: 78.46%.<br>SSLC (2018): 74.60%.</p>
+      </div>
+      <div class="certs">
+        <div class="cert reveal"><span class="seal">W</span><h3>Web Designing Certification</h3><p>Livewire Workshop</p></div>
+        <div class="cert reveal" style="--d:0.08s"><span class="seal">AI</span><h3>AI Workshop Certification</h3><p>Microsoft Office 365 Suite</p></div>
+        <div class="cert reveal" style="--d:0.16s"><span class="seal">&lt;/&gt;</span><h3>Programming certifications</h3><p>C, C++, HTML and Core Java</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ask" aria-labelledby="ask-h">
+    <div class="section-head reveal"><span class="eyebrow">Ask Gowshik</span><h2 id="ask-h">Questions about me? Ask away</h2></div>
+    <div class="ask reveal">
+      <div class="ask-intro">
+        <p>Pick a question and my mini-me will answer you. If a typing box appears, you can also ask your own.</p>
+        <div class="chips" id="chips" role="group" aria-label="Suggested questions"></div>
+      </div>
+      <div class="desk">
+        <div class="deskhead"><div class="guide-av" id="askAv"><img id="askImg" src="img/chibi-happy.jpg" width="68" height="68" alt=""></div><div><b>Virtual Gowshik</b><span class="eyebrow">Answers recruiters</span></div></div>
+        <div class="log" id="log" aria-live="polite"></div>
+        <form class="freeform" id="freeform">
+          <input id="q" type="text" maxlength="240" placeholder="Ask about my experience" aria-label="Your question" autocomplete="off">
+          <button class="btn primary" id="send" type="submit">Ask</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-h">
+    <div class="section-head reveal"><span class="eyebrow">Contact</span><h2 id="contact-h">Hiring? Let's talk</h2></div>
+    <div class="contact">
+      <div class="cards reveal">
+        <div class="ccard"><span class="eyebrow">Email</span><div class="val-row"><span class="val">gkcandyman@gmail.com</span><button class="copy" type="button">Copy</button></div></div>
+        <div class="ccard"><span class="eyebrow">Phone and WhatsApp</span><div class="val-row"><span class="val">7397794631</span><button class="copy" type="button">Copy</button></div></div>
+        <div class="ccard"><span class="eyebrow">GitHub</span><a class="val" href="https://github.com/Gkcandyman" target="_blank" rel="noopener">github.com/Gkcandyman</a></div>
+        <div class="ccard"><span class="eyebrow">Based in</span><span class="val">Erode, Tamil Nadu</span></div>
+      </div>
+      <form class="composer reveal" id="composer" style="--d:0.1s">
+        <h3 style="font-size:1.5rem;font-weight:800">Write me a message</h3>
+        <p style="color:var(--muted)">Fill this in and tap Send on WhatsApp. It opens WhatsApp with your message ready, and you press send there.</p>
+        <div class="two">
+          <label for="c-name">Your name<input class="field" id="c-name" type="text" autocomplete="name"></label>
+          <label for="c-co">Company<input class="field" id="c-co" type="text" autocomplete="organization"></label>
+        </div>
+        <label for="c-msg">Message<textarea class="field" id="c-msg" placeholder="Tell me about the role, the team or the next step."></textarea></label>
+        <div class="cta">
+          <a class="btn primary" id="c-wa" href="https://wa.me/917397794631" target="_blank" rel="noopener">Send on WhatsApp</a>
+          <button class="btn" type="submit" id="c-copy">Copy message</button>
+          <a class="btn" id="c-mail" href="mailto:gkcandyman@gmail.com">Email instead</a>
+        </div>
+        <p class="status-line" id="c-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <span class="eyebrow">Gowshik Karuneswaran G</span>
+    <span class="eyebrow">Updated October 2026</span>
+  </footer>
+</main>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  root.classList.add("js");
+  var reduce = !!(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
+  function $(s, c) { return (c || document).querySelector(s); }
+  function $$(s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function retrigger(node, cls) { node.classList.remove(cls); void node.offsetWidth; node.classList.add(cls); }
+
+  /* Theme toggle */
+  var tbtn = $("#theme");
+  function isDark() { var t = root.getAttribute("data-theme"); if (t) return t === "dark"; return !!(window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches); }
+  function syncTheme() { var d = isDark(); tbtn.textContent = d ? "Light mode" : "Dark mode"; tbtn.setAttribute("aria-pressed", String(d)); }
+  try { var saved = localStorage.getItem("gk-theme"); if (saved === "light" || saved === "dark") root.setAttribute("data-theme", saved); } catch (e) {}
+  syncTheme();
+  tbtn.addEventListener("click", function () {
+    var next = isDark() ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("gk-theme", next); } catch (e) {}
+    syncTheme();
+  });
+
+  /* Scroll reveal and counters */
+  var io = ("IntersectionObserver" in window) ? new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
+  }, { threshold: 0.12 }) : null;
+  $$(".reveal").forEach(function (n) { if (io) io.observe(n); else n.classList.add("in"); });
+
+  function animateCount(n) {
+    var to = parseFloat(n.getAttribute("data-to")), dec = parseInt(n.getAttribute("data-dec") || "0", 10);
+    if (reduce) { n.textContent = to.toFixed(dec); return; }
+    var t0 = null;
+    function step(t) {
+      if (t0 === null) t0 = t;
+      var p = Math.min(1, (t - t0) / 1300), e = 1 - Math.pow(1 - p, 3);
+      n.textContent = (to * e).toFixed(dec);
+      if (p < 1) requestAnimationFrame(step); else n.textContent = to.toFixed(dec);
+    }
+    requestAnimationFrame(step);
+  }
+  if ("IntersectionObserver" in window) {
+    var cio = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) { if (en.isIntersecting) { animateCount(en.target); cio.unobserve(en.target); } });
+    }, { threshold: 0.6 });
+    $$(".count").forEach(function (n) { cio.observe(n); });
+  }
+
+  /* Rotating words */
+  var words = ["ERP systems", "dispatch modules", "reporting dashboards", "workflow automation", "REST APIs"];
+  var wi = 0, wnode = $("#word");
+  if (!reduce) {
+    setInterval(function () { wi = (wi + 1) % words.length; wnode.textContent = words[wi]; retrigger(wnode, "swap"); }, 2600);
+  }
+
+  /* Hero glow follows the pointer */
+  var hero = $(".hero"), glow = $("#glow");
+  if (!reduce && window.matchMedia && matchMedia("(pointer: fine)").matches) {
+    hero.addEventListener("pointermove", function (e) {
+      var r = hero.getBoundingClientRect();
+      glow.style.setProperty("--mx", ((e.clientX - r.left) / r.width * 100) + "%");
+      glow.style.setProperty("--my", ((e.clientY - r.top) / r.height * 100) + "%");
+    });
+  }
+
+  /* Project tilt */
+  if (!reduce && window.matchMedia && matchMedia("(pointer: fine)").matches) {
+    $$(".tilt").forEach(function (c) {
+      c.addEventListener("pointermove", function (e) {
+        var r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+        c.style.transition = "box-shadow 0.25s";
+        c.style.transform = "perspective(900px) rotateX(" + (-y * 5) + "deg) rotateY(" + (x * 6) + "deg) translateY(-4px)";
+      });
+      c.addEventListener("pointerleave", function () { c.style.transition = ""; c.style.transform = ""; });
+    });
+  }
+
+  /* Marquee */
+  var tools = ["React.js", "Node.js", "PostgreSQL", "Prisma ORM", "REST APIs", "JavaScript", "HTML5", "CSS3", "Git", "GitHub", "Power BI", "Excel", "Axpert ERP", "pgAdmin", "VS Code"];
+  var mq = $("#marquee");
+  tools.concat(tools).forEach(function (t, i) { var p = el("span", "pill", t); if (i >= tools.length) p.setAttribute("aria-hidden", "true"); mq.appendChild(p); });
+
+  /* Flip cards */
+  var flips = [
+    ["I paid for my own degree", "From 2020 to 2023 I worked in IT support, in the college computer lab and on TCS iON exam days, under a work-support arrangement that funded my tuition."],
+    ["I have worked the floor", "Transport, kraft paper production and textile quality. That is why I build ERP screens around real work."],
+    ["150 rolls a day", "At Shahi Knits I inspect about 150 fabric rolls (2.1 tons of daily production) plus finished garments, and log every defect in Axpert ERP."],
+    ["Exam-day calm", "I supported central government exams including JEE, CUET and NPTEL: setting up systems, monitoring them and fixing problems live during sessions."],
+    ["Why ERP?", "I have planned and dispatched orders, managed service work and inspected lots, and I build software for those same jobs."],
+    ["Open source, open book", "My ERP is live and the source is on GitHub, so you can click around and read the code."]
+  ];
+  var fwrap = $("#flips");
+  flips.forEach(function (f, i) {
+    var b = el("button", "flip reveal"); b.type = "button"; b.setAttribute("aria-pressed", "false"); b.style.setProperty("--d", (i % 3) * 0.08 + "s");
+    var fr = el("span", "face front"); fr.appendChild(el("h3", null, f[0])); fr.appendChild(el("span", "hint", "Tap to flip"));
+    var bk = el("span", "face back"); bk.appendChild(el("p", null, f[1])); bk.appendChild(el("span", "hint", "Tap to flip back"));
+    b.appendChild(fr); b.appendChild(bk);
+    b.addEventListener("click", function () { b.setAttribute("aria-pressed", String(b.getAttribute("aria-pressed") !== "true")); });
+    fwrap.appendChild(b);
+    if (io) io.observe(b); else b.classList.add("in");
+  });
+
+  /* Skills map */
+  var CATS = [
+    { name: "Frontend", c: "var(--lav)", skills: [
+      ["React.js", ["ERP Management System: responsive UI components and dashboard modules.", "SaraCrafts: responsive platform for beauty services and gift products.", "SearchFirst Technologies: ERP and business management applications."]],
+      ["JavaScript", ["The language behind my React and Node.js projects, front end and back end."]],
+      ["HTML5", ["Page structure across my projects, plus a Web Designing certification from Livewire Workshop and HTML certification."]],
+      ["CSS3", ["Responsive layouts in my projects and the Web Designing certification."]] ] },
+    { name: "Backend and data", c: "var(--sky)", skills: [
+      ["Node.js", ["ERP Management System and SaraCrafts: the REST API layer.", "SearchFirst Technologies: backend workflows for business process automation."]],
+      ["REST APIs", ["ERP: dispatch, planning and administration data.", "SaraCrafts: service handling and product management.", "SearchFirst Technologies: APIs behind business workflows."]],
+      ["PostgreSQL", ["Business data for the ERP and SaraCrafts.", "SearchFirst Technologies: I managed the PostgreSQL databases."]],
+      ["Prisma ORM", ["The data layer in the ERP, SaraCrafts and the work at SearchFirst Technologies."]],
+      ["pgAdmin", ["Part of my PostgreSQL toolkit."]] ] },
+    { name: "Tools", c: "var(--butter)", skills: [
+      ["Git", ["Version control for my projects."]],
+      ["GitHub", ["My code lives at github.com/Gkcandyman, including the ERP source."]],
+      ["VS Code", ["My code editor for these projects."]],
+      ["Power BI", ["Part of my reporting toolkit alongside Excel."]],
+      ["Excel", ["Sri Pariyur Amman Kraft Papers: analytical reports and operational records."]] ] },
+    { name: "ERP and business", c: "var(--peach)", skills: [
+      ["Axpert ERP", ["Shahi Knits: every inspected roll and garment lot goes into Axpert, and lot-wise defect reports come out of it."]],
+      ["Workflow automation", ["ERP Management System: workflow automation features.", "SearchFirst Technologies: business process automation."]],
+      ["Operational reporting", ["Sri Pariyur Amman Kraft Papers: analytical reports.", "Shahi Knits: lot-wise defect reports.", "Quilon Transport: workflow tracking and reporting.", "ERP Management System: dashboards for tracking and reporting."]] ] },
+    { name: "IT support", c: "var(--mint)", skills: [
+      ["Networking and DNS", ["Computer and network infrastructure at the college lab and on TCS iON exam days."]],
+      ["Hardware troubleshooting", ["Maintained lab computers and fixed hardware problems for students and faculty."]],
+      ["Software installation", ["First-line support in the college computer lab."]] ] }
+  ];
+  var cats = $("#cats"), sp = $("#skillpanel"), allSkillBtns = [];
+  function showSkill(name, cat, uses, btn) {
+    allSkillBtns.forEach(function (b) { b.setAttribute("aria-pressed", String(b === btn)); });
+    sp.textContent = "";
+    var tg = el("span", "tagline", cat.name); tg.style.setProperty("--c", cat.c);
+    sp.appendChild(tg); sp.appendChild(el("h3", null, name)); sp.appendChild(el("p", "eyebrow", "Where I used it"));
+    var ul = el("ul"); uses.forEach(function (u) { ul.appendChild(el("li", null, u)); }); sp.appendChild(ul);
+    retrigger(sp, "pop");
+  }
+  CATS.forEach(function (cat, ci) {
+    var box = el("div", "cat reveal"); box.appendChild(el("span", "eyebrow", cat.name));
+    var row = el("div", "chiprow");
+    cat.skills.forEach(function (s, si) {
+      var b = el("button", "skill", s[0]); b.type = "button"; b.setAttribute("aria-pressed", "false"); b.style.setProperty("--c", cat.c);
+      b.addEventListener("click", function () { showSkill(s[0], cat, s[1], b); });
+      allSkillBtns.push(b); row.appendChild(b);
+      if (ci === 0 && si === 0) showSkill(s[0], cat, s[1], b);
+    });
+    box.appendChild(row); cats.appendChild(box);
+    if (io) io.observe(box); else box.classList.add("in");
+  });
+
+  /* Career timeline */
+  var STEPS = [
+    { short: "College lab", when: "2020 – 2023", title: "IT Support, Computer Lab", org: "Nandha Arts and Science College · Non-teaching staff",
+      pts: ["Worked alongside my degree under a college work-support arrangement that funded my tuition.", "Maintained lab computers, hardware and network infrastructure so systems were available for classes and exams.", "First-line troubleshooting for students and faculty, including software installation and system maintenance."],
+      tags: ["Hardware troubleshooting", "Networking and DNS", "Software installation"] },
+    { short: "TCS iON", when: "2020 – 2023", title: "IT Support, Examination Operations", org: "TCS iON · Technical staff",
+      pts: ["On-site IT support for central government examinations including JEE, CUET and NPTEL.", "Set up computer and network infrastructure, monitored systems and fixed problems live during exam sessions.", "Helped keep examination workflows secure and smooth."],
+      tags: ["Networking and DNS", "Live troubleshooting", "System monitoring"] },
+    { short: "Quilon Transport", when: "Jul 2024 – Apr 2025", title: "Service Manager", org: "Quilon Transport Private Limited",
+      pts: ["Managed service operations and customer coordination, with workflow tracking and reporting.", "Gave technical and administrative support for business processes."],
+      tags: ["Service operations", "Workflow tracking", "Reporting"] },
+    { short: "Kraft Papers", when: "May 2025 – Mar 2026", title: "EDP Executive, Planning and Dispatch Manager", org: "Sri Pariyur Amman Kraft Papers",
+      pts: ["Ran planning, dispatch and daily operational workflows, coordinating between administrative and logistics teams.", "Produced analytical reports and kept operational records in Excel and reporting tools.", "Improved operational efficiency through data tracking and process management."],
+      tags: ["Planning", "Dispatch", "Excel", "Reporting"] },
+    { short: "SearchFirst", when: "Apr 2026 – Jun 2026", title: "Software Developer", org: "SearchFirst Technologies Private Limited",
+      pts: ["Developed ERP and business management applications in React.js and Node.js.", "Designed REST APIs and backend workflows for business process automation.", "Managed PostgreSQL databases and used Prisma ORM for data operations."],
+      tags: ["React.js", "Node.js", "PostgreSQL", "Prisma"], note: "The company closed following the founder's passing." },
+    { short: "Shahi Knits", when: "Jun 2026 – Now", title: "QAD Checker, Quality Assurance", org: "Shahi Knits Private Limited",
+      pts: ["Inspect fabric rolls (about 150 rolls, 2.1 tons of daily production) and finished garments against quality standards, classifying defects at both stages.", "Record defect data in Axpert ERP for every inspected roll and garment lot, so records stay accurate for tracking and traceability.", "Prepare lot-wise defect reports from Axpert data for quality and production teams to verify and approve."],
+      tags: ["Axpert ERP", "Quality inspection", "Defect reporting"] }
+  ];
+  var track = $("#track"), detail = $("#detail"), cur = STEPS.length - 1, nodes = [];
+  function renderStep(i, focus) {
+    cur = i;
+    nodes.forEach(function (n, k) { n.classList.toggle("done", k <= i); n.setAttribute("aria-selected", String(k === i)); n.tabIndex = k === i ? 0 : -1; });
+    var s = STEPS[i]; detail.textContent = "";
+    var box = el("div"); box.appendChild(el("span", "eyebrow", s.when)); box.appendChild(el("h3", null, s.title)); box.appendChild(el("p", "org", s.org));
+    var ul = el("ul"); s.pts.forEach(function (p) { ul.appendChild(el("li", null, p)); }); box.appendChild(ul);
+    if (s.note) box.appendChild(el("p", "note-line", s.note));
+    var tg = el("div", "tags"); s.tags.forEach(function (t) { tg.appendChild(el("span", "tag", t)); }); box.appendChild(tg);
+    detail.appendChild(box); retrigger(detail, "pop");
+    $("#prev").disabled = i === 0; $("#next").disabled = i === STEPS.length - 1;
+    if (focus) { nodes[i].focus(); nodes[i].scrollIntoView({ block: "nearest", inline: "center", behavior: reduce ? "auto" : "smooth" }); }
+  }
+  STEPS.forEach(function (s, i) {
+    var b = el("button", "node"); b.type = "button"; b.setAttribute("role", "tab");
+    b.appendChild(el("b", null, s.short)); b.appendChild(el("span", null, s.when));
+    b.addEventListener("click", function () { renderStep(i, false); });
+    b.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight" && i < STEPS.length - 1) { e.preventDefault(); renderStep(i + 1, true); }
+      if (e.key === "ArrowLeft" && i > 0) { e.preventDefault(); renderStep(i - 1, true); }
+    });
+    nodes.push(b); track.appendChild(b);
+  });
+  $("#prev").addEventListener("click", function () { if (cur > 0) renderStep(cur - 1, true); });
+  $("#next").addEventListener("click", function () { if (cur < STEPS.length - 1) renderStep(cur + 1, true); });
+  renderStep(cur, false);
+
+  /* Mini ERP demo */
+  var STAGES = ["Planned", "Loaded", "Dispatched", "Delivered"];
+  function freshOrders() {
+    return [
+      { id: "DN-1041", dest: "Coimbatore", tons: 12.5, s: 0 }, { id: "DN-1042", dest: "Salem", tons: 8.2, s: 1 },
+      { id: "DN-1043", dest: "Chennai", tons: 15.0, s: 2 }, { id: "DN-1044", dest: "Tiruppur", tons: 6.8, s: 2 },
+      { id: "DN-1045", dest: "Madurai", tons: 10.4, s: 3 }, { id: "DN-1046", dest: "Trichy", tons: 9.1, s: 0 }
+    ];
+  }
+  var LOTS = [
+    { name: "Lot A", rolls: 52, d: { "Hole": 3, "Oil stain": 5, "Shade variation": 8, "Slub": 6, "Needle line": 2 } },
+    { name: "Lot B", rolls: 48, d: { "Hole": 1, "Oil stain": 2, "Shade variation": 4, "Slub": 9, "Needle line": 3 } },
+    { name: "Lot C", rolls: 50, d: { "Hole": 2, "Oil stain": 4, "Shade variation": 3, "Slub": 5, "Needle line": 6 } }
+  ];
+  var orders = freshOrders(), filter = -1, lotIdx = 0, verified = {};
+  var kp = $("#kpis"), fl = $("#filters"), ol = $("#orders"), lotsEl = $("#lots"), lotinfo = $("#lotinfo"), bars = $("#bars");
+
+  function renderDispatch() {
+    var road = 0, pending = 0, done = 0;
+    orders.forEach(function (o) { if (o.s === 2) road += o.tons; if (o.s < 2) pending++; if (o.s === 3) done++; });
+    kp.textContent = "";
+    [[road.toFixed(1), "tons on the road"], [String(pending), "orders waiting"], [String(done), "delivered"]].forEach(function (k) {
+      var d = el("div", "kpi"); d.appendChild(el("b", null, k[0])); d.appendChild(el("span", null, k[1])); kp.appendChild(d);
+    });
+    fl.textContent = "";
+    [["All", -1]].concat(STAGES.map(function (s, i) { return [s, i]; })).forEach(function (f) {
+      var n = f[1] === -1 ? orders.length : orders.filter(function (o) { return o.s === f[1]; }).length;
+      var b = el("button", "fbtn", f[0] + " " + n); b.type = "button"; b.setAttribute("aria-pressed", String(filter === f[1]));
+      b.addEventListener("click", function () { filter = f[1]; renderDispatch(); });
+      fl.appendChild(b);
+    });
+    ol.textContent = "";
+    orders.filter(function (o) { return filter === -1 || o.s === filter; }).forEach(function (o) {
+      var r = el("div", "order");
+      r.appendChild(el("span", "id", o.id)); r.appendChild(el("span", "dest", o.dest)); r.appendChild(el("span", "tons", o.tons.toFixed(1) + " t"));
+      r.appendChild(el("span", "pill-s s" + o.s, STAGES[o.s]));
+      var b = el("button", "mini", o.s === 3 ? "Done" : "Move to " + STAGES[o.s + 1]); b.type = "button"; b.disabled = o.s === 3;
+      b.addEventListener("click", function () { if (o.s < 3) { o.s++; renderDispatch(); } });
+      r.appendChild(b); ol.appendChild(r);
+    });
+    if (!ol.children.length) ol.appendChild(el("p", "sample", "No orders at this stage."));
+  }
+  function renderQA() {
+    lotsEl.textContent = "";
+    LOTS.forEach(function (l, i) {
+      var b = el("button", "fbtn", l.name); b.type = "button"; b.setAttribute("aria-pressed", String(i === lotIdx));
+      b.addEventListener("click", function () { lotIdx = i; renderQA(); });
+      lotsEl.appendChild(b);
+    });
+    var l = LOTS[lotIdx], total = 0; Object.keys(l.d).forEach(function (k) { total += l.d[k]; });
+    lotinfo.textContent = "";
+    lotinfo.appendChild(el("span", "tag", l.rolls + " rolls inspected"));
+    lotinfo.appendChild(el("span", "tag", total + " defects logged"));
+    var ok = !!verified[lotIdx];
+    lotinfo.appendChild(el("span", "pill-s " + (ok ? "s3" : "s1"), ok ? "Verified" : "Awaiting verification"));
+    var vb = el("button", "mini", ok ? "Undo verification" : "Mark verified"); vb.type = "button";
+    vb.addEventListener("click", function () { verified[lotIdx] = !verified[lotIdx]; renderQA(); });
+    lotinfo.appendChild(vb);
+    bars.textContent = "";
+    var fills = [];
+    Object.keys(l.d).forEach(function (k) {
+      var row = el("div", "bar"); row.appendChild(el("span", null, k));
+      var rail = el("span", "rail"), f = el("span", "fill"); rail.appendChild(f); row.appendChild(rail); row.appendChild(el("b", null, String(l.d[k])));
+      bars.appendChild(row); fills.push([f, l.d[k]]);
+    });
+    requestAnimationFrame(function () { requestAnimationFrame(function () { fills.forEach(function (p) { p[0].style.width = (p[1] / 12 * 100) + "%"; }); }); });
+  }
+  $$(".tab").forEach(function (t) {
+    t.addEventListener("click", function () {
+      var q = t.getAttribute("data-tab") === "q";
+      $$(".tab").forEach(function (x) { x.setAttribute("aria-selected", String(x === t)); });
+      $("#demo-d").hidden = q; $("#demo-q").hidden = !q;
+      if (q) renderQA();
+    });
+  });
+  $("#reset").addEventListener("click", function () { orders = freshOrders(); filter = -1; verified = {}; lotIdx = 0; renderDispatch(); if (!$("#demo-q").hidden) renderQA(); });
+  renderDispatch();
+
+  /* Copy buttons */
+  $$(".copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var node = btn.previousElementSibling;
+      function done(t) { btn.textContent = t; setTimeout(function () { btn.textContent = "Copy"; }, 1800); }
+      function fallback() { try { var r = document.createRange(); r.selectNodeContents(node); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); } catch (e) {} done("Selected"); }
+      try { navigator.clipboard.writeText(node.textContent).then(function () { done("Copied"); }, fallback); } catch (e) { fallback(); }
+    });
+  });
+
+  /* Message composer: builds text to copy, never claims it was sent */
+  var cn = $("#c-name"), cc = $("#c-co"), cm = $("#c-msg"), cs = $("#c-status"), mail = $("#c-mail");
+  function composed() {
+    var n = cn.value.trim(), c = cc.value.trim(), m = cm.value.trim();
+    return "Hi Gowshik,\n\n" + (n ? "I am " + n + (c ? " from " + c : "") + ".\n\n" : "") + (m || "I saw your portfolio and would like to talk.") + "\n\nRegards" + (n ? ",\n" + n : "");
+  }
+  function syncMail() { mail.href = "mailto:gkcandyman@gmail.com?subject=" + encodeURIComponent("Hello from your portfolio") + "&body=" + encodeURIComponent(composed()); $("#c-wa").href = "https://wa.me/917397794631?text=" + encodeURIComponent(composed()); }
+  [cn, cc, cm].forEach(function (i) { i.addEventListener("input", syncMail); });
+  syncMail();
+  $("#composer").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var text = composed();
+    function ok() { cs.textContent = "Copied. Paste it into WhatsApp or an email."; }
+    function no() { cm.focus(); cm.select(); cs.textContent = "Copy did not work here. Select the message above and copy it by hand."; }
+    try { navigator.clipboard.writeText(text).then(ok, no); } catch (err) { no(); }
+  });
+
+  /* Ask Gowshik */
+  var QA = [
+    { q: "What do you build?", a: "I build ERP and workflow systems for manufacturing and logistics: dispatch, planning and reporting modules in React.js, Node.js, PostgreSQL and Prisma ORM.\n\nMy live ERP Management System covers workflow management, dispatch operations, planning and administration, with dashboards for operational tracking and reporting." },
+    { q: "Why does your operations background matter?", a: "I have worked in the operations that ERP systems support: service management at Quilon Transport, planning and dispatch at Sri Pariyur Amman Kraft Papers, and fabric and garment quality inspection at Shahi Knits.\n\nAt Shahi Knits I record defects in Axpert ERP for every roll and lot, so I use an ERP as an end user every day." },
+    { q: "What do you do today?", a: "I am a QAD Checker at Shahi Knits Private Limited. I inspect about 150 fabric rolls (2.1 tons of daily production) and finished garments, classify defects, record them in Axpert ERP, and prepare lot-wise defect reports for the quality and production teams." },
+    { q: "What happened at SearchFirst Technologies?", a: "I worked there as a Software Developer from April to June 2026, building ERP and business management applications in React.js and Node.js, designing REST APIs and managing PostgreSQL with Prisma.\n\nThe company closed following the founder's passing." },
+    { q: "How did you fund your degree?", a: "I worked in IT support throughout college. I was non-teaching staff in the Nandha Arts and Science College computer lab under a work-support arrangement that funded my tuition, and I did on-site IT support for TCS iON examinations such as JEE, CUET and NPTEL." },
+    { q: "What is your tech stack?", a: "Frontend: React.js, JavaScript, HTML5, CSS3.\nBackend and data: Node.js, REST APIs, Prisma ORM, PostgreSQL, pgAdmin.\nTools: Git, GitHub, VS Code, Power BI, Microsoft Excel.\nBusiness systems: Axpert ERP as an end user, workflow automation, operational reporting." },
+    { q: "What projects have you built?", a: "Two so far, both end to end.\n\nThe ERP Management System is live. It covers workflow management, dispatch, planning and administration, with dashboards for tracking and reporting. SaraCrafts is an e-beautician and gift products platform. Both use React.js, Node.js, PostgreSQL and Prisma." },
+    { q: "Can you work with PostgreSQL and Prisma?", a: "Yes. I use PostgreSQL with Prisma ORM in my ERP, in SaraCrafts and in my work at SearchFirst Technologies, where I managed the databases. I also use pgAdmin for PostgreSQL." },
+    { q: "Are you open to new roles?", a: "Yes, I am open to ERP and full stack roles. For joining date, salary or relocation, please message me on WhatsApp at 7397794631 or email gkcandyman@gmail.com and I will answer directly." },
+    { q: "How can I reach you?", a: "Email me at gkcandyman@gmail.com or message or call me on WhatsApp at 7397794631. My code is at github.com/Gkcandyman, and the ERP project is live at gvs-erp-sand.vercel.app." }
+  ];
+  /* Chibi guides: cropped from my own chibi artwork, one per section */
+  var CHIBI = { peace: "img/chibi-peace.jpg", arms: "img/chibi-arms.jpg", shoulder: "img/chibi-shoulder.jpg", hug: "img/chibi-hug.jpg", happy: "img/chibi-happy.jpg" };
+  var POS = { arms: "50% 14%", peace: "50% 45%", shoulder: "50% 40%", hug: "50% 40%", happy: "55% 40%" };
+  function typeInto(node, text, av, done) {
+    if (node._t) { clearInterval(node._t); node._t = null; if (node._av) node._av.classList.remove("talking"); }
+    if (reduce) { node.textContent = text; if (done) done(); return; }
+    node.textContent = ""; var i = 0; node._av = av || null;
+    if (av) av.classList.add("talking");
+    node._t = setInterval(function () {
+      i += 2; node.textContent = text.slice(0, i);
+      if (i >= text.length) {
+        clearInterval(node._t); node._t = null; node.textContent = text;
+        if (av) av.classList.remove("talking");
+        if (done) done();
+      }
+    }, 26);
+  }
+  var heroAv = $("#heroChibi"), bubbleText = $("#bubbleText");
+  var greet = ["Hi! I am Gowshik. Welcome to my corner of the web.", "I build ERP systems. Scroll down and my mini-mes will show you around.", "Hiring? I would love to hear from you. Contact is at the bottom.", "Tap me again and I will say something new."];
+  var gi = 0;
+  function say() { typeInto(bubbleText, greet[gi % greet.length], heroAv); gi++; }
+  setTimeout(say, 500);
+  setTimeout(say, 6500);
+  heroAv.addEventListener("click", say);
+
+  var GUIDES = [
+    ["about", "arms", ["Tap a card to flip it. Every one is a true story from my work.", "Below the cards you can meet all five of me."]],
+    ["skills", "shoulder", ["Pick a skill and I will tell you where I used it.", "Every skill here comes from a real project or job, not a list I copied."]],
+    ["journey", "hug", ["I started in IT support, moved into operations, and now I build software.", "Use the buttons to walk through my jobs one by one."]],
+    ["demo", "happy", ["This is a small ERP with made-up data. Try moving an order to its next stage.", "Switch to Fabric QA to see the kind of defect report I make at work."]],
+    ["projects", "peace", ["Both of these are built end to end. The ERP is live, so go ahead and click it.", "The source code is on GitHub if you want to read how I write."]],
+    ["cred", "shoulder", ["I studied Computer Science and kept adding workshops and certificates.", "My CGPA is 7.8 and I finished with First Class."]],
+    ["contact", "arms", ["Hiring? Write to me here. I would love to hear from you.", "Email or phone, whichever you prefer."]]
+  ];
+  var gio = ("IntersectionObserver" in window) ? new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (en.isIntersecting) { var g = en.target._g; gio.unobserve(en.target); typeInto(g.txt, g.lines[0], g.av); }
+    });
+  }, { threshold: 0.6 }) : null;
+  GUIDES.forEach(function (g) {
+    var sec = g[0] === "cred" ? $('[aria-labelledby="cred-h"]') : document.getElementById(g[0]);
+    if (!sec) return;
+    var head = $(".section-head", sec); if (!head) return;
+    var box = el("div", "guide reveal");
+    var av = el("button", "guide-av"); av.type = "button"; av.setAttribute("aria-label", "Hear another line from Gowshik");
+    var im = el("img"); im.src = CHIBI[g[1]]; im.width = 88; im.height = 88; im.alt = ""; im.loading = "lazy"; im.style.objectPosition = POS[g[1]]; av.appendChild(im);
+    var bub = el("div", "guide-bubble"); bub.appendChild(el("span", "who", "Gowshik says"));
+    var txt = el("span", null, g[2][0]); bub.appendChild(txt);
+    box.appendChild(av); box.appendChild(bub);
+    head.insertAdjacentElement("afterend", box);
+    var k = 0, state = { txt: txt, av: av, lines: g[2] };
+    av.addEventListener("click", function () { k = (k + 1) % g[2].length; typeInto(txt, g[2][k], av); });
+    if (io) io.observe(box); else box.classList.add("in");
+    if (gio) { box._g = state; gio.observe(box); }
+  });
+
+  /* Ask desk chibi */
+  var askAv = $("#askAv"), askImg = $("#askImg");
+  askImg.style.objectPosition = "55% 40%";
+  function talk(on) { askAv.classList.toggle("talking", on); }
+  function swapAsk(i) { var order = ["happy", "arms", "peace", "shoulder", "hug"], key = order[i % order.length]; askImg.src = CHIBI[key]; askImg.style.objectPosition = POS[key]; }
+
+  var chips = $("#chips"), log = $("#log");
+  function show(q, a, note) {
+    log.textContent = "";
+    var mq1 = el("div", "msg q"); mq1.appendChild(el("span", "who", "Question")); mq1.appendChild(el("div", "body", q));
+    var ma = el("div", "msg a"); ma.appendChild(el("span", "who", "Gowshik")); var ba = el("div", "body", a); ma.appendChild(ba);
+    if (note) ma.appendChild(el("span", "note", note));
+    log.appendChild(mq1); log.appendChild(ma);
+    return ba;
+  }
+  QA.forEach(function (item, i) {
+    var b = el("button", "chip", item.q); b.type = "button"; b.setAttribute("aria-pressed", i === 0 ? "true" : "false");
+    b.addEventListener("click", function () {
+      $$(".chip", chips).forEach(function (c) { c.setAttribute("aria-pressed", "false"); });
+      b.setAttribute("aria-pressed", "true"); swapAsk(i); typeInto(show(item.q, ""), item.a, askAv);
+    });
+    chips.appendChild(b);
+  });
+  show(QA[0].q, QA[0].a);
+
+  /* Typed questions: answered on this page from a built-in knowledge base.
+     Set USE_API to true only after adding the optional serverless function (see README). */
+  var USE_API = false;
+  var FALLBACK = "I do not have that detail on this page. Please message me on WhatsApp at 7397794631 or email gkcandyman@gmail.com and I will answer you directly.";
+  var KB = [
+    { k: ["hello", "hi ", "hey", "who are you", "introduce", "about you", "tell me about yourself", "yourself"], a: "I am Gowshik Karuneswaran G, an ERP and full stack developer from Erode, Tamil Nadu. I build dispatch, planning and reporting systems with React.js, Node.js, PostgreSQL and Prisma, and I have worked in transport, kraft paper production and textile quality." },
+    { k: ["why should", "why hire", "hire you", "strength", "best at", "what makes you", "stand out", "different"], a: "I know both sides of an ERP. I have run dispatch and planning, managed service work and inspected fabric lots, and I use Axpert ERP every day. Now I build the software for those jobs, so my screens and reports fit how the work is done." },
+    { k: ["skill", "tech stack", "technolog", "tools", "stack", "know"], a: "Frontend: React.js, JavaScript, HTML5, CSS3.\nBackend and data: Node.js, REST APIs, Prisma ORM, PostgreSQL, pgAdmin.\nTools: Git, GitHub, VS Code, Power BI, Microsoft Excel.\nBusiness systems: Axpert ERP as an end user, workflow automation, operational reporting.\nIT support: networking and DNS, hardware troubleshooting, software installation." },
+    { k: ["react", "frontend", "front end", "javascript", "html", "css", "ui"], a: "I build my front ends in React.js with JavaScript, HTML5 and CSS3. In my ERP I made responsive UI components and dashboards, and SaraCrafts has a responsive React.js front end." },
+    { k: ["node", "backend", "back end", "api", "rest"], a: "I design REST APIs in Node.js. In my ERP they carry dispatch, planning and administration data, in SaraCrafts they handle services and products, and at SearchFirst Technologies I built backend workflows for business process automation." },
+    { k: ["postgres", "prisma", "database", "sql", "pgadmin", "data"], a: "I use PostgreSQL with Prisma ORM for structured business data in my ERP, in SaraCrafts and at SearchFirst Technologies, where I managed the databases. I also use pgAdmin." },
+    { k: ["axpert", "erp experience", "erp"], a: "I use Axpert ERP every day at Shahi Knits. Every inspected roll and garment lot goes into it, and I prepare lot-wise defect reports from its data. I also built my own ERP Management System that is live at gvs-erp-sand.vercel.app." },
+    { k: ["project", "built", "portfolio work", "github", "code", "source", "saracrafts", "sara"], a: "Two projects, both end to end. The ERP Management System is live and covers workflow, dispatch, planning, administration and dashboards. SaraCrafts is an e-beautician and gift products platform. Both use React.js, Node.js, PostgreSQL and Prisma. My code is at github.com/Gkcandyman." },
+    { k: ["experience", "work history", "career", "background", "journey", "jobs"], a: "My path: IT support at college and on TCS iON exam days (2020 to 2023), Service Manager at Quilon Transport (2024 to 2025), Planning and Dispatch Manager at Sri Pariyur Amman Kraft Papers (2025 to 2026), Software Developer at SearchFirst Technologies (April to June 2026), and now QAD Checker at Shahi Knits." },
+    { k: ["current", "now", "today", "shahi", "qad", "quality", "defect", "fabric", "garment"], a: "I am a QAD Checker at Shahi Knits Private Limited. I inspect about 150 fabric rolls (2.1 tons of daily production) and finished garments, classify defects, record them in Axpert ERP, and prepare lot-wise defect reports for the quality and production teams." },
+    { k: ["searchfirst", "search first", "closed", "left", "leave", "software developer"], a: "I worked at SearchFirst Technologies as a Software Developer from April to June 2026, building ERP and business apps in React.js and Node.js with PostgreSQL and Prisma. The company closed following the founder's passing." },
+    { k: ["kraft", "pariyur", "dispatch", "planning", "edp"], a: "At Sri Pariyur Amman Kraft Papers (May 2025 to March 2026) I was EDP Executive and Planning and Dispatch Manager. I ran planning, dispatch and daily workflows, coordinated admin and logistics teams, and produced reports in Excel." },
+    { k: ["quilon", "transport", "service manager", "logistics"], a: "At Quilon Transport (July 2024 to April 2025) I was Service Manager. I managed service operations and customer coordination, tracked workflows, made reports and gave technical and administrative support." },
+    { k: ["tcs", "ion", "exam", "jee", "cuet", "nptel"], a: "With TCS iON I gave on-site IT support for central government exams including JEE, CUET and NPTEL. I set up computers and networks, monitored systems and fixed problems live during sessions." },
+    { k: ["college", "lab", "fund", "tuition", "paid", "afford"], a: "I worked in IT support throughout my degree. I was non-teaching staff in the Nandha Arts and Science College computer lab under a work-support arrangement that funded my tuition." },
+    { k: ["education", "degree", "study", "studied", "cgpa", "marks", "percentage", "hsc", "sslc", "school", "qualification", "graduat"], a: "I have a Bachelor of Computer Science from Nandha Arts and Science College (2020 to 2023) with a CGPA of 7.8 and First Class. HSC 2020: 78.46%. SSLC 2018: 74.60%." },
+    { k: ["certif", "course", "workshop", "training"], a: "Web Designing Certification (Livewire Workshop), AI Workshop Certification on the Microsoft Office 365 Suite, and certifications in C, C++, HTML and Core Java." },
+    { k: ["contact", "reach", "email", "mail", "phone", "call", "whatsapp", "number", "message", "connect"], a: "Message or call me on WhatsApp at 7397794631, or email gkcandyman@gmail.com. You can also use the message box in the Contact section." },
+    { k: ["where", "location", "based", "city", "erode", "relocat", "remote"], a: "I am based in Erode, Tamil Nadu. For relocation or remote work, please message me on WhatsApp at 7397794631 and we can talk it through." },
+    { k: ["salary", "ctc", "expected", "notice", "join", "available", "availability", "start"], a: "I am open to ERP and full stack roles. For salary, notice period and joining date, please message me on WhatsApp at 7397794631 or email gkcandyman@gmail.com." },
+    { k: ["excel", "power bi", "report", "reporting", "analytic"], a: "I produce operational reports. At Sri Pariyur Amman Kraft Papers I used Excel for analytical reports, at Shahi Knits I make lot-wise defect reports from Axpert data, and my ERP has dashboards for tracking and reporting. I also use Power BI." },
+    { k: ["network", "dns", "hardware", "troubleshoot", "support", "install"], a: "From my IT support years I know networking and DNS, hardware troubleshooting and software installation. I kept college lab systems running and fixed problems live on exam days." }
+  ];
+  function norm(t) { return " " + t.toLowerCase().replace(/[^a-z0-9+#. ]/g, " ").replace(/\s+/g, " ") + " "; }
+  function localAnswer(q) {
+    var n = norm(q), best = null, bestScore = 0;
+    KB.forEach(function (e) {
+      var s = 0;
+      e.k.forEach(function (kw) { if (n.indexOf(kw.length < 4 ? " " + kw.trim() : kw) !== -1) s += kw.length; });
+      if (s > bestScore) { bestScore = s; best = e; }
+    });
+    return best ? best.a : FALLBACK;
+  }
+  function getAnswer(q) {
+    if (USE_API && window.fetch) {
+      var ctl = ("AbortController" in window) ? new AbortController() : null;
+      var timer = ctl ? setTimeout(function () { ctl.abort(); }, 12000) : null;
+      return fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ q: q }), signal: ctl ? ctl.signal : undefined })
+        .then(function (r) { if (timer) clearTimeout(timer); if (!r.ok) throw new Error("api"); return r.json(); })
+        .then(function (j) { if (j && j.answer) return j.answer; throw new Error("empty"); })
+        .catch(function () { return localAnswer(q); });
+    }
+    return new Promise(function (resolve) { setTimeout(function () { resolve(localAnswer(q)); }, 450); });
+  }
+
+  var form = $("#freeform"), input = $("#q"), send = $("#send"), busy = false;
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var q = input.value.trim();
+    if (!q || busy) return;
+    busy = true; send.disabled = true;
+    $$(".chip", chips).forEach(function (c) { c.setAttribute("aria-pressed", "false"); });
+    swapAsk(Math.floor(Math.random() * 5));
+    var out = show(q, "Thinking…");
+    talk(true);
+    getAnswer(q).then(function (text) {
+      talk(false); typeInto(out, text, askAv); input.value = "";
+    }).then(function () { busy = false; send.disabled = false; });
+  });
+})();
+</script>
+
+</body>
+</html>
